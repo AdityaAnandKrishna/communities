@@ -24,3 +24,21 @@ h2{
 .descr{
 	height:50%;
 }
+
+@media (max-width: 768px) {
+  .btn-today {
+    padding:15px;
+  }
+  .btn-month {
+  	padding: 12px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .btn-today {
+    padding:20px;
+  }
+  .btn-month {
+  	padding: 15px;
+  }
+}
